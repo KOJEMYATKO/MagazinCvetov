@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html");  
+});
+</script> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-color: rgb(224, 224, 224);">
+ <div id="header"></div>
+<div style="padding: 0 15%;">
+ <div class="card mb-3" style="max-width: 100%;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/19363_MB.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Корзина</h5>
+          <p class="card-text">Для цветов и грибов</p>
+          <p class="card-text"><medium class="text-muted">600₽</medium></p>
+          <button type="button" class="btn btn-light" onclick="location.href = 'catalog.html';">Купить сейчас</button>
+          <button type="button" class="btn btn-light" onclick="location.href = 'catalog.html';">В корзину</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
